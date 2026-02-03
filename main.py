@@ -4,6 +4,7 @@ import sys
 import time
 import logging
 import argparse
+import config
 
 from modules.data_extraction import extract_linkedin_profile
 from modules.data_processing import split_profile_data, create_vector_database, verify_embeddings
